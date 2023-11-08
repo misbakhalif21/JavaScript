@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DataTables Js</title>
+    <link href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <table id="example" class="table table-striped table-bordered table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th style="width: 20%;">Position</th>
+                        <th>languages</th>
+                        <th>Company</th>
+                        <th>Role</th>
+                        <th>Tools</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="width: 20%;">Senior Frontend Developer</td>
+                        <td>HTML, CSS, JavaScript</td>
+                        <td>Photosnap</td>
+                        <td>FrontEnd</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 20%;">Fullstack Developer</td>
+                        <td>Python</td>
+                        <td>Manage</td>
+                        <td>FullStack</td>
+                        <td>React</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 20%;">Junior Frontend Developer</td>
+                        <td>JavaScript</td>
+                        <td>Account</td>
+                        <td>FrontEnd</td>
+                        <td>React, Sass</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 20%;">Junior Frontend Developer</td>
+                        <td>CSS, JavaScript</td>
+                        <td>MyHome</td>
+                        <td>FrontEnd</td>
+                        <td>CSS, JavaScript</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 20%;">Software Engineer</td>
+                        <td>JavaScript</td>
+                        <td>Loop Studios</td>
+                        <td>FullStack</td>
+                        <td>Ruby, Sass</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 20%;">Junior Backend Developer</td>
+                        <td>Ruby</td>
+                        <td>FaceIt</td>
+                        <td>BackEnd</td>
+                        <td>RoR</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 20%;">Junior Developer</td>
+                        <td>HTML, JavaScript</td>
+                        <td>Shortly</td>
+                        <td>FrontEnd</td>
+                        <td>Sass</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 20%;">Junior Frontend Developer</td>
+                        <td>JavaScript</td>
+                        <td>Insure</td>
+                        <td>FrontEnd</td>
+                        <td>Vue, Sass</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 20%;">Full Stack Engineer</td>
+                        <td>Python, JavaScript</td>
+                        <td>Eyecam Co.</td>
+                        <td>FullStack</td>
+                        <td>Django</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 20%;">Front-end Dev</td>
+                        <td>JavaScript</td>
+                        <td>The Air Filter Company</td>
+                        <td>FrontEnd</td>
+                        <td>React, Sass</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+<script>
+    $(document).ready(function () {
+        $("#example").DataTable();
+    });
+</script>
+
+
+</html>
